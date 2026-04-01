@@ -12,6 +12,6 @@ function toggleLang() {
   });
 
   document.title = currentLang === 'zh'
-    ? "Rin's Blog"
-    : "Rin's Blog";
+    ? "Rins' Blog"
+    : "Rins' Blog";
 }

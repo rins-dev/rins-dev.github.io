@@ -2,6 +2,10 @@
   "name": "rins-dev.github.io",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0"
   }
 }
