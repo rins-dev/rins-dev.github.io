@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Rin's Blog</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="nav-logo">Rin</a>
+      <div class="nav-links">
+        <a href="/" data-zh="首页" data-en="Home">首页</a>
+        <a href="/blog" data-zh="博客" data-en="Blog">博客</a>
+        <a href="/about" data-zh="关于" data-en="About">关于</a>
+        <a href="/contact" data-zh="联系" data-en="Contact">联系</a>
+        <button class="lang-toggle" onclick="toggleLang()">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="blog">
+    <h1 data-zh="博客" data-en="Blog">博客</h1>
+    <div class="post-list">
+      <a href="/posts/hello-world" class="post-card">
+        <time>2026-04-01</time>
+        <h3 data-zh="你好，世界" data-en="Hello World">你好，世界</h3>
+        <p data-zh="这是我的第一篇博客文章，记录我开始写博客的旅程。" data-en="This is my first blog post, marking the start of my blogging journey.">这是我的第一篇博客文章，记录我开始写博客的旅程。</p>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Rin. <span data-zh="使用纯 HTML/CSS/JS 构建" data-en="Built with plain HTML/CSS/JS">使用纯 HTML/CSS/JS 构建</span></p>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
