@@ -1,0 +1,7 @@
+{
+  "name": "rins-dev.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
