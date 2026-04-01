@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "node server.js",
-    "build": "node build.js"
+    "build": "node build.js",
+    "create": "node create.js"
   },
   "devDependencies": {
     "marked": "^15.0.0"
