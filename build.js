@@ -38,6 +38,14 @@ const POST_TEMPLATE = (title, date, content) => `<!DOCTYPE html>
         ${content}
       </div>
     </article>
+
+    <script src="https://utteranc.es/client.js"
+        repo="rins-dev/rins-dev.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
   </main>
 
   <footer class="site-footer">
